@@ -1,3 +1,101 @@
-site_name: My Docs
+# Project Information
+site_name: QuantumByte Documentation
+site_author: QuantumByte Technical Team
+site_description: Official documentation for QuantumByte platform.
+
+# Repo Information
+# Put repo here later
+
+# Copyright
+copyright: Copyright &copy; 2025 QuantumByte. All rights reserved.
+
+# Configuration
 theme:
   name: material
+  logo: assets/icons/qb_logo_small_blue.png
+  favicon: assets/icons/qb_logo_small_white.png
+  features:
+    - navigation.indexes
+    - navigation.path
+    - navigation.collapse
+    - navigation.top
+    - navigation.right
+    - navigation.footer
+    - header.autohide
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.tabs.links
+    - i18n
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+        primary: 1700FF
+        accent: white
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to light mode
+        primary: 1700FF
+        accent: white
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+          nav_translations:
+            index.md: Home
+        - locale: id
+          name: Bahasa Indonesia
+          build: true
+          nav_translations:
+            index.md: Beranda
+extra:
+  generator: false
+  navigation:
+    collapse: true # Collapse navigation sections
+    depth: 3 # Depth of navigation tree
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:info@quantumbyte.ai
+      name: Contact Us
+    - icon: fontawesome/solid/code
+      link: https://quantumbyte.ai
+      name: QuantumByte Website
+
+# markdown extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - codehilite
+  - meta
+  - toc:
+      permalink: true
+
+# -----------------
+# Navigation config
+# -----------------
+nav:
+  - Home: index.md
+  - Get Started:
+      - Plan: getstarted\plan.md
+      - Fundamentals: getstarted\fundamentals.md
+      - Create Your App: getstarted\createapp.md
+  - Develop:
+      - Workspace: develop\workspace.md
+      - Concept: develop\concept.md
+      - Branding: develop\branding.md
+  - Deploy:
+      - Deploy App: deploy\deployapp.md
+  - Billing:
+      - Credits: billing\credit.md
+      - Payment: billing\payment.md
