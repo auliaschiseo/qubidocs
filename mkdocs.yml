@@ -16,7 +16,6 @@ theme:
   favicon: assets/icons/qb_logo_small_white.png
   features:
     - navigation.indexes
-    - navigation.path
     - navigation.collapse
     - navigation.top
     - navigation.right
@@ -32,13 +31,13 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-        primary: 1700FF
-        accent: white
+        primary: black
+        accent: black
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off
-        name: Switch to light mode
-        primary: 1700FF
+        name: Switch to ligh mode
+        primary: indigo
         accent: white
 
 # Plugins
@@ -72,6 +71,9 @@ extra:
       link: https://quantumbyte.ai
       name: QuantumByte Website
 
+extra_css:
+  - stylesheets/extra.css 
+
 # markdown extensions
 markdown_extensions:
   - attr_list
@@ -80,6 +82,12 @@ markdown_extensions:
   - meta
   - toc:
       permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # -----------------
 # Navigation config
@@ -87,15 +95,15 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Get Started:
-      - Plan: getstarted\plan.md
-      - Fundamentals: getstarted\fundamentals.md
-      - Create Your App: getstarted\createapp.md
+      - Plan: getstarted/plan.md
+      - Fundamentals: getstarted/fundamentals.md
+      - Create Your App: getstarted/createapp.md
   - Develop:
-      - Workspace: develop\workspace.md
-      - Concept: develop\concept.md
-      - Branding: develop\branding.md
+      - Workspace: develop/workspace.md
+      - Concept: develop/concept.md
+      - Branding: develop/branding.md
   - Deploy:
-      - Deploy App: deploy\deployapp.md
+      - Deploy App: deploy/deployapp.md
   - Billing:
-      - Credits: billing\credit.md
-      - Payment: billing\payment.md
+      - Credits: billing/credit.md
+      - Payment: billing/payment.md

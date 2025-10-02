@@ -1,5 +1,4 @@
-# Create Your App
-
+# <strong>Create Your App</strong>
 <div align="justify">
 After logging in, you can find the structured prompt template on our landing page or get directed from the Build Your App button in the Dashboard. To start building, you’ll use a structured prompt template:
 <br>
@@ -14,4 +13,4 @@ After logging in, you can find the structured prompt template on our landing pag
 <br>
 <div align="justify">
 This prompt gives QB enough context to create a <strong>working app preview</strong>. From there, click Build the app, and you can find your app on your <a href="">Workspace</a>, then refine your app further in <a href="">Build Mode</a>.
-<div>
+</div>
