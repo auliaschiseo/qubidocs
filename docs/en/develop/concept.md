@@ -5,7 +5,7 @@ In <strong>Concept</strong> customization, you define the foundation of your app
 
 ## <strong>App Concept</strong>
 <div align="center">
-<img src=".../assets/features/AppConcept.png" alt="App Concept" width="700">
+<img src="assets/features/AppConcept.png" alt="App Concept" width="700">
 </div>
 <div align="center"><p style="color: grey; font-size: 9px;"><em>App Concept</em></p></div>
 <div align="justify">
@@ -15,7 +15,7 @@ In <strong>Concept</strong> customization, you define the foundation of your app
   <div class="list-point">
         <p>Define the challenge your app is meant to solve. This includes a <strong>Problem Title</strong> and a <strong>Problem Description</strong>. A clear problem statement ensures your app has purpose and direction.</p>
              <div>
-             <img src=".../assets/features/ProblemTitle.png" alt="Problem Title" width="700">
+             <img src="assets/features/ProblemTitle.png" alt="Problem Title" width="700">
                  <div align="center"><p style="color: grey; font-size: 9px;"><em>ex. Problem Definition</em></p></div>
             </div>
     </div>
@@ -24,7 +24,7 @@ In <strong>Concept</strong> customization, you define the foundation of your app
  <div class="list-point">
         <p>Describe how your app will solve the problem. The <strong>Solution Title</strong> sums up the approach, while the <strong>Solution Description</strong> explains the details. This helps QuantumByte generate an app that aligns with your vision.</p>
              <div>
-             <img src=".../assets/features/SolutionTitle.png" alt="Solution Title" width="700">
+             <img src="assets/features/SolutionTitle.png" alt="Solution Title" width="700">
                  <div align="center"><p style="color: grey; font-size: 9px;"><em>ex. Solution Definition</em></p></div>
             </div>
     </div>
@@ -33,14 +33,14 @@ In <strong>Concept</strong> customization, you define the foundation of your app
   <div class="list-point">
         <p>State what success looks like for your app. Each goal generated as problem statements and solutions generated. Goals act as checkpoints, helping you measure whether the app is achieving what you intended.</p>
              <div>
-             <img src=".../assets/features/GoalTitle.png" alt="Goal Title" width="700">
+             <img src="assets/features/GoalTitle.png" alt="Goal Title" width="700">
                  <div align="center"><p style="color: grey; font-size: 9px;"><em>ex. Goal Definition</em></p></div>
             </div>
     </div>
 
 ## <strong>Business Concept</strong>
 <div align="center">
-<img src=".../assets/features/BusinessConcept.png" alt="Business Concept" width="700">
+<img src="assets/features/BusinessConcept.png" alt="Business Concept" width="700">
 </div>
 <div align="center"><p style="color: grey; font-size: 9px;"><em>Business Concept</em></p></div>
 
