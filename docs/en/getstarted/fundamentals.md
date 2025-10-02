@@ -11,7 +11,7 @@ Before you dive in, it’s important to understand the <strong>basic concept of 
 <li><strong>Brainstorm business concepts and strategies</strong> with features like Business Model Canvas and ROI calculation. It explores how your app will work, who it will serve, and how it can grow sustainably.</li>
 </div>
 <div align="justify">
-<p>At its core, QuantumByte is an AI-powered no-code app builder. This means you can build complete applications without writing traditional code. Instead, you guide the system with <a href="/getstarted/createapp/" target="_blank" rel="noopener noreferrer">Prompts</a>.</p>
+<p>At its core, QuantumByte is an AI-powered no-code app builder. This means you can build complete applications without writing traditional code. Instead, you guide the system with <a href=".../getstarted/createapp/" target="_blank" rel="noopener noreferrer">Prompts</a>.</p>
 
 <p>Prompting in natural language is not only for the initial app creation, it also applies to generating new features and designing the user interface (UI) in <a href="https://quantumbyte.ai/auth/register" target="_blank" rel="noopener noreferrer">Build Mode</a>. Prompts serve as the <strong>highest level of customization</strong>, allowing you to shape your app quickly and intuitively.</p>
 </div>
