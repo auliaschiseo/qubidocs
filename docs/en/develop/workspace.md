@@ -5,7 +5,7 @@ The Workspace is the central place for managing everything related to your proje
 </div>
 <br>
 <div align="center">
-<img src="assets/features/dashboard_white.png" alt="Dashboard" width="700">
+<img src="https://github.com/auliaschiseo/qubidocs/blob/main/docs/assets/features/dashboard_white.png" alt="Dashboard" width="700">
 </div>
 <br>
 <div align="justify">
