@@ -2,6 +2,7 @@
 site_name: QuantumByte Documentation
 site_author: QuantumByte Technical Team
 site_description: Official documentation for QuantumByte platform.
+site_url: https://auliaschiseo.github.io/qubidocs/
 
 # Repo Information
 # Put repo here later
